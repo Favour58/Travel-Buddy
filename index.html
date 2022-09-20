@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Travel-Buddy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" class="css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style=" font-family: 'Libre Franklin', sans-serif;
+font-family: 'Varela Round', sans-serif;background-color:#ffffff; ">
+<!-- Navbar-section -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button style="background-color: transparent ; outline: none; border: none; border-radius: none; " type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span style="background-color: black; width: 20px; font-weight: bold;" class="icon-bar"></span>
+          <span style="background-color: black; width: 25px; font-weight: bold;" class="icon-bar" ></span>
+          <span style="background-color: black; width: 15px; font-weight: bold;" class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span style="font-size: 3rem;font-family: serif;"><i style="color: #ffffff;"class="fa-solid fa-plane-arrival"></i>&nbsp;<span style="font-family: 'Libre Franklin', sans-serif;
+          font-family: 'monserrat',; font-weight: bold; color: black; text-shadow: 0px 0px ; ">Travel Buddy</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="font-family: Arial, Helvetica, sans-serif;">
+          <li><a style="color: black;font-size: 1.5em;" href="index.html"><span></span>Home</a></li>
+          <li><a style="color: black;font-size: 1.5em;" href="Gallery.html"><span></span>Features</a></li>
+          <li><a style="color: black;font-size: 1.5em;" href="About.html"><span></span>Login</a></li>
+     <button value="click" onclick="msg()" style="font-size: 1.5em; background-color: blue;color: white;outline-color: transparent;" class="btn" id="btnn" >Sign Up For Free</button>
+        </ul> 
+      </div>
+    </div>
+  </nav>  
+
+ 
+  <div class="container-fluid, text-center">
+    <div class="row, text-center" id="column3">
+        <div style="margin-top: 7%;" class="col-lg-6">
+            <h1  style="font-weight: bold;margin-left:0%;color:black;margin-top:15%;"> An Easier Trip Every Time</h1>
+            <p style=" color:black;padding-left: 20px;padding-right: 20px;">Imagine Checking One Place for all Your Travel Details and Getting a heads up as Things Happen Throughout your Trip  </p>
+            <p style=" color:black;padding-left: 20px;padding-right: 20px;">See Why Life WithOut Travel-Buddy Is a Distant Memory for Millions Of Travellers and sign Up Today</p>
+        </div>
+        </div>
+        <div class="container-fluid, text-center">
+            <div class="row, text-center" id="column2">
+                <div class="col-lg-6">
+                <img style="margin-left:15%;width:60%;margin-top: 15%;" class="img-responsive" id="imgg" src="pple.png">
+                </div>
+            </div>
+          </div>
+          </div>
+          <hr width="100%">
+
+          <div class="container-fluid, text-center">
+            <div class="row, text-center" id="column3">
+                <div style="margin-top: 7%;" class="col-lg-6">
+                    <h1  style="font-weight: bold;margin-left:0%;color:black;margin-top:15%;">You Handle The Bookings,We'll Take it From There</h1>
+                    <p style=" color:black;padding-left: 20px;padding-right: 20px;">Unlike Other Travel Apps,Travel Buddy can Organise Your Travel Plans No Matter Where You Book.<br>
+                      Simply Forward Your Confirmation Emails To <span style="color:blue;">plans@travelbuddy.com</span> and in a Matter of Seconds.<br>
+                    Travel Buddy will create master itinerary for Every Trip </p>
+                    <button style="width:50%;height:4rem;background-color:red;color:white;border: none;border-radius: 5px;">Learn How It Works</button>
+
+                </div>
+                </div>
+                <div class="container-fluid, text-center">
+                    <div class="row, text-center" id="column2">
+                        <div class="col-lg-6">
+                        <img style="margin-left:0%;width:100%;margin-top: 15%;" class="img-responsive" id="imgg" src="pple2.png">
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <hr style="width:100%;">
+         
+
+
+                  <div class="container-fluid, text-center">
+                    <div class="row, text-center" id="column2">
+                        <div class="col-lg-6">
+                        <img style="margin-left:15%;width:60%;margin-top: 15%;" class="img-responsive" id="imgg" src="pple3.png">
+                        </div>
+                    </div>
+                  </div>
+                          
+                  <div class="container-fluid, text-center">
+                    <div class="row, text-center" id="column3">
+                        <div style="margin-top: 7%;" class="col-lg-6">
+                            <h1  style="font-weight: bold;margin-left:0%;color:black;margin-top:0%;">Heplful Reminders/Alerts So You Never Miss A Seat</h1>
+                            <p style=" color:black;padding-left: 20px;padding-right: 20px;">Packed With Features That Give You A Leg Up On Changes and <br>
+                              Help You Make The Most Of all Your Trips,Travel Buddy Pro is Where the Magic  Happens</p>         
+                            <button style="width:50%;height:4rem;background-color:blue;color:white;border: none;border-radius: 5px;">More About Pro</button>
+                      </div>
+                      </div>
+                      </div>
+                      <hr width="100%">
+
+                      <div class="container-fluid, text-center">
+                        <div class="row, text-center" id="column3">
+                            <div style="margin-top: 7%;"class="col-lg-6">
+                              <h1  style="font-weight: bold;margin-left:0%;color:black;margin-top:15%;">Always Know Where To Be And When</h1>
+                              <p style=" color:black;padding-left: 20px;padding-right: 20px;">Need A Reminder When Its Time to Leave The Airport?</p>
+                              <p style=" color:black;padding-left: 20px;padding-right: 20px;">Not Sure Where To Eat In The Airport Or Near Your Hotel</p>
+                              <p style=" color:black;padding-left: 20px;padding-right: 20px;">Travel Buddy Got You Covered</p>
+                              <button style="width:50%;height:4rem;background-color:blue;color:white;border: none;border-radius: 5px;">Download The App </button>
+                            </div>
+                              </div>
+                            <div class="container-fluid, text-center">
+                                <div class="row, text-center" id="column2">
+                                    <div class="col-lg-6">
+                                    <img style="margin-left:0%;width:100%;margin-top: 0%;" class="img-responsive" id="imgg" src="pple4.png">
+                                    </div>
+                                </div>
+                              </div>
+                              <hr width="100%">
+                              <div class="text-center" id="c2">
+                                <h1 style="font-weight: bold;margin-left: 0%; color: blue;">Try the Travel App That Keeps Up With You</h1>
+                                <p style=" color:black;padding-left: 20px;padding-right: 20px;">So Many Trips,So little time.</p>
+                                <p style="  color:black;  padding-left: 15px;padding-right: 15px;">Let Travel Buddy Worry About The Details,So You have To</p>
+                                
+                                <button class="btn" id="btn1" style="width:30%;background-color: blueviolet; color: #fff; padding: 10px 40px;">Sign Up</button>
+                                </div>
+
+
+         <div class="container-fluid,text-center">
+       <div class="row, text-center" id="grid1">
+        <div class=".container">
+        <img style="margin-left:35%;width:30%;margin-top:2%;" class="img-responsive" id="imgg" src="reminder.png">
+         </div>
+          </div>
+        </div>
+                              
+        <div class="container-fluid,text-center"  style="background-color:gainsboro;">
+          <div class="row, text-center" id="id-0"  style="background-color:gainsboro;">
+            <div class=".container">
+              <h2 style="color:navy;font-weight: bold;">Travel Buddy</h2>
+            </div>
+        <div class="col-sm-3 col-md-6 col-lg-3" style="background-color:gainsboro;">
+          <h3 style="color: rgb(227, 113, 238);">Tour With Pleasure</h3>
+          <div class=".contanier" id="id-1">
+            <img src="png.png" class="img3"  style=" margin-top:0%; height:50%; width:100%; ;" alt="background image not available">
+          </div>
+        </div> 
+        <div class="col-sm-3 col-md-6 col-lg-3"  style="background-color:gainsboro;">
+          <h3 style="font-weight:bold;color: rgb(160, 146, 238);">PRODUCTS</h3>
+          <p id="p2">Download App</p>
+          <p id="p2">Travel Buddy </p>
+          <p id="p2">Travel Buddy Pro</p>
+          <p id="p2">Travel Buddy For Teams</p>
+          <p id="p2">Help Center</p>
+        </div> 
+        <div class="col-sm-3 col-md-6 col-lg-3"  style="background-color:gainsboro;">
+          <h3 style="font-weight:bold;color: rgb(160, 146, 238);">NEWS AND RESOURCES</h3>
+          <p id="p2">Blog</p>
+          <p id="p2">Press</p>
+          <p id="p2">Jobs</p>
+          <p id="p2">User Agreements</p>
+          <p id="p2">Privacy Policy</p>
+          <p id="p2">Security</p>
+          <p id="p2">Cookies Prefrences</p>
+        </div> 
+        <div class="col-sm-3 col-md-6 col-lg-3"  style="background-color:gainsboro;">
+          <h3 style="font-weight:bold;color: rgb(160, 146, 238);">PATNERS</h3>
+          <p id="p2">Developer API</p>
+          <p id="p2">Supported Booking Sites</p>
+        </div> 
+        </div>
+        </div>
+        </div>
+        </body>
+        </html>
+
+
+        
+
+
+
+        
+                             
+
+
+ 
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- style="background-color:navy; -->
+
+
+  <!-- <span style="color:blue;">Travel-Buddy</span> -->
